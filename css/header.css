@@ -1,0 +1,176 @@
+body, div, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+    font:14px/22px"Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC",
+    "WenQuanYi Micro Hei",sans-serif;
+
+}
+ul, li {
+    list-style: none;
+    /*font: 14px/22px"Microsoft Yahei" ;*/
+
+}
+
+img {
+    border: none;
+}
+a{
+    text-decoration: none;
+
+    color: #333;
+}
+#lg_header{
+    height:86px ;
+    width: 100%;
+
+}
+.m1024{
+    width: 1024px;
+    margin: 0 auto;
+}
+/*<!-- 端头黑色导航-->*/
+#lg_header #lg_tabT{
+    height: 30px;
+    min-width:1028px;
+    background-color:#333 ;
+    border-bottom:1px solid #c4c3c3 ;
+}
+#lg_header #lg_tabT .lg_tab_l{
+    float: left;
+    list-style: none;
+
+}
+#lg_header #lg_tabT .lg_tab_l .tab_l1{
+    background: url("../image/app_icon_4940eb3.png") 30px 0 no-repeat ;
+    color: #08d7a2;
+    padding:0 12px 0 43px ;
+    text-decoration:none;
+    font-size: 14px;
+    line-height: 30px;
+}
+#lg_header #lg_tabT .lg_tab_l .tab_l2{
+
+    border-left: 1px solid #5d5d5d;
+
+}
+#lg_header #lg_tabT .lg_tab_l a{
+    text-decoration:none;
+    color: #c4c3c3;
+    font-size: 14px;
+    line-height: 30px;
+    padding: 0 12px;
+}
+#lg_header #lg_tabT .lg_tab_l .tab_l2:hover{
+    color: white;
+
+}
+#lg_header #lg_tabT .lg_tab_r{
+    float: right;
+    list-style: none;
+    cursor: pointer;
+    margin-right: 30px;
+}
+#lg_header #lg_tabT .lg_tab_r  a{
+    color: #c4c3c3;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 20px ;
+    font-size: 14px;
+    text-decoration:none;
+
+
+}
+#lg_header #lg_tabT .lg_tab_r .r1{
+    border-right: 1px solid #c4c3c3;
+}
+
+#lg_header #lg_tabT .lg_tab_r  a:hover{
+    color: white;
+}
+#lg_tabT{
+    clear: both;
+}
+/*<!-- 端头白色导航-->*/
+#lg_header #lg_tabB{
+    height:54px;
+    min-width: 1024px;
+    border-bottom:1px solid #e5e5e5 ;
+    background-color: #fafafa;
+    position: relative;
+
+
+}
+#lg_header #lg_tabB .m1024{
+    width: 1024px;
+    margin: 0 auto;
+}
+#lg_header #lg_tabB .lg_tab_l{
+    height: 54px;
+    width: 240px;
+    overflow: hidden;
+    clear: both;
+
+}
+#lg_header #lg_tabB .lg_tab_l .tab_l1{
+    float: left;
+    width: 97px;
+    height: 34px;
+    margin: 10px 0;
+    background:url("../image/logo_1c5763c.png") no-repeat ;
+}
+#lg_header #lg_tabB .lg_tab_l strong{
+    float: left;
+    margin:20px 10px 0 10px ;
+    color: #333333;
+    font-size: 18px;
+    font-weight: 400;
+}
+#lg_header #lg_tabB .lg_tab_l .tab_l2{
+    float: left;
+    color: #999;
+    font-size: 12px;
+    cursor: pointer;
+    margin: 26px 0 0 0;
+
+}
+
+#lg_header #lg_tabB .lg_tab_r{
+
+    position: absolute;
+    top: 0;
+    left: 440px;
+}
+#lg_header #lg_tabB .lg_tab_r li{
+    float: left;
+    display: block;
+    margin: 0 20px;
+}
+#lg_header #lg_tabB .lg_tab_r li a{
+    text-align: center;
+    line-height: 52px;
+    padding: 5px;
+    font-size: 20px;
+    color: #5d5d5d;
+
+}
+#lg_header #lg_tabB .lg_tab_r li.a2{
+    border-bottom: 2px solid #00b38a;
+    color: #333333;
+}
+#lg_header #lg_tabB .lg_tab_r li:hover{
+    border-bottom: 2px solid #00b38a;
+    color: #333333;
+}
+/*content*/
+#content{
+    min-width:1028px;
+}
+#content #content_left{
+    width: 230px;
+    float: left;
+
+}
+/*左侧上列表*/
+ #content_l_t{
+
+}
